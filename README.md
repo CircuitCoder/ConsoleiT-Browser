@@ -8,6 +8,12 @@
 请前往 Releases 下载
 
 ### 开发
+由于众所周知的原因，Github Releases 在国内不好用，请使用业界良心淘宝提供的镜像
+```
+export ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/" # Windows 玩家请使用 set
+npm install
+```
+
 启动应用
 ```
 npm start
