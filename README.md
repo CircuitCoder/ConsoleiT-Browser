@@ -3,7 +3,6 @@
 
 [![依赖状态](https://david-dm.org/CircuitCoder/ConsoleiT-Browser.svg)](https://david-dm.org/CircuitCoder/ConsoleiT-Browser)
 [![开发依赖状态](https://david-dm.org/CircuitCoder/ConsoleiT-Browser/dev-status.svg)](https://david-dm.org/CircuitCoder/ConsoleiT-Browser#info=devDependencies)
-[![测试状态](https://travis-ci.org/CircuitCoder/ConsoleiT-Browser.svg?branch=master)](https://travis-ci.org/CircuitCoder/ConsoleiT-Browser)
 
 ## 安装
 请前往 Releases 下载
