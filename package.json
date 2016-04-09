@@ -1,0 +1,22 @@
+{
+  "name": "ConsoleiT-Browser",
+  "productName": "ConsoleiT-Browser",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "build": "electron-packager ./ --platform=darwin --arch=x64 --out=bin",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "connect": "^3.4.1",
+    "request": "^2.70.0",
+    "request-progress": "^2.0.1",
+    "rimraf": "^2.5.2",
+    "serve-static": "^1.10.2",
+    "tar-fs": "^1.12.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^6.0.1",
+    "electron-prebuilt": "^0.37.5"
+  }
+}
