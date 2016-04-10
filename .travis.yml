@@ -14,7 +14,11 @@ deploy:
   provider: releases
   api_key:
     secure: UUTYR4c6/9Y3YE1RGKkDldwzjOhGxTfB/uV/gdW08pleoy/jfFBtkjoxtQYVKRZbnXNUCgP4JY0lKt2jlw64rlIY/zeyGJOqqru2j5APQYX18qN8v3z+FBnDkMzpG631NjGgC78cD+LPuZIzG0Nfnsn84+6BcEom5BCHv7D7rkDg3ILNi+vvgMosVN5tXrk3U4TYDvfiyG4bMPnITF+LVIJxrtffeP5g6ktCULYT+X1MODFhZvXcobJPXtp+052bmubgkKBgevUyJlGUiVdwogK0y2OF0jbJE3XeWBsBGZlhAiERPRvs7FmLBhReSzv4EydCBGe1CFfOAwuQNcnwPsO01OgpXAHIHy+Op1U18lYmKSWMgIZBIGLAsyr0bFlAVNRBB37nqQ56NO+xZvv0dGNBjsMKNqYrnds29SHoGKpfywNUL7067uawQcDXU47T3213mpQ5W1VGx12q1V7glQHu5V9tV4SRkDhKRPNkfghfOq820s+muh2GHoIEYv8AmdJ3chRv0nmTVhOUQ1LzJ1bGimnlpZaEuhnsISy9veP/ZvD2ISj1NytXIlVUl/BIvWWlTW7jSf+rbqPJrUQUFDM69k//i/FsFhWECOQ5S4wGUDGnR+Ed9Bl2Mg5jhAnRb8Gc2Z3l7IWbpR6a0YCYmJKtvpzVj7z+Tec/kFPrekE=
-  file: artifacts/*
+  file_glob: true
+  file: "artifacts/*"
   on:
     tags: true
     repo: CircuitCoder/ConsoleiT-Browser
+
+after_deploy:
+- scripts/clean.sh

@@ -7,3 +7,6 @@ for i in */; do
   zip -rq "../artifacts/${i%/}.zip" "$i"
   echo "Finished."
 done
+
+echo "\nCreated zipfiles:"
+ls -1 ../artifacts
