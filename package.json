@@ -18,6 +18,6 @@
   },
   "devDependencies": {
     "electron-packager": "^7.0.1",
-    "electron-prebuilt": "^0.37.5"
+    "electron-prebuilt": "^1.1.0"
   }
 }
