@@ -17,7 +17,7 @@
     "tar-fs": "^1.12.0"
   },
   "devDependencies": {
-    "electron-packager": "^6.0.1",
-    "electron-prebuilt": "^0.37.5"
+    "electron-packager": "^7.0.1",
+    "electron-prebuilt": "^1.1.0"
   }
 }
